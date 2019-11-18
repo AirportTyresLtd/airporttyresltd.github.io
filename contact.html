@@ -67,10 +67,13 @@
 <p>Leave us a comment</p>
 
 	<form method="POST" action="http://formspree.io/drtyres@gmail.com">
+  <input type="text" name="name" placeholder="Your name"><br><br>
   <input type="email" name="email" placeholder="Your email">
   <br>
-  <textarea name="message" placeholder="Your message"></textarea>
+  <br>	
+  <textarea name="message" placeholder="Your message"></textarea><br>
   <button type="submit">Send</button>
+  <input type="hidden" name="_next" value="//site.io/thanks.html" />
 </form>
 	
 </aside>
