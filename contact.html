@@ -64,21 +64,22 @@
 	<a href="https://www.facebook.com/Airport-Tyres-Ltd-101266148013035"><img class="fbimg" src="images/AdobeStock_285446974_Editorial_Use_Only.jpeg" width="13%" alt="Facebook Logo"></a>
 </p>
 <p>Leave us a comment</p>
-	<form action="http://airporttyresltd.github.io/formmail.php" name="form1" id="form1">
+	<form action="http://formspree.io/drtyres@gmail.com" method="POST">
 		
 	<label for="name">Name:</label><br>
 	  <input name="name" type="text" required="required" class="forms" id="name" form="form1">
 		<br><br>
 	<label for="email">Email:</label><br>
-	  <input name="email" type="email" required="required" class="forms" id="email" form="form1">
+	  <input name="_replyto" type="email" required="required" class="forms" >
 		<br>
 		<br>
 	<label for="comments">Comment:</label><br>
-	  <textarea name="comments" cols="6" required="required" class="forms" id="comments" form="form1">
+	  <textarea name="messege" cols="6" required="required" class="forms" id="comments" form="form1">
 			
 		</textarea>
 		<br>
-	<input name="submit" type="submit" form="form1" value="submit">
+	<input name="submit" type="submit" form="form1" value="Send">
+	<input type="hidden" name="_next" value="thankyou.html">
 		
   </form>
 	
